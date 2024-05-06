@@ -34,6 +34,9 @@ const script = [
 ## Deployment fee
 **Yes...yes...that's right! In order to prevent some bad guys from deploying disgusting garbage scripts, thereby occupying the resources of the node, or even filling the node**
 
-**When the opcode is ``deploy``, as the owner of the deployment, you need to pay 15,000 satoshis in BTC to the target address**
+**When the opcode is ``deploy``, as the owner of the deployment, you need to pay 15,000 satoshis in BTC MainNet to the target address**
 
 **Otherwise the indexer will filter out transactions as irrelevant!!!**
+
+**2000 satoshis in BTC TestNet**
+**15,000 satoshis in BTC MainNet**
