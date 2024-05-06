@@ -22,7 +22,7 @@ const {
 } = require('react-toastify');
 
 const githubOrgUrl = 'https://github.com/BitScpt';
-const domain = 'https://dosc.bitscpt.io';
+const domain = 'https://docs.bitscpt.io';
 
 const customFields = {
 	meta:{
