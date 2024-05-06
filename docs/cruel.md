@@ -38,5 +38,11 @@ const script = [
 
 **Otherwise the indexer will filter out transactions as irrelevant!!!**
 
-**2000 satoshis in BTC TestNet**
-**15,000 satoshis in BTC MainNet**
+
+:::success
+- **2000 satoshis in BTC TestNet**
+- **15,000 satoshis in BTC MainNet**
+:::
+
+
+

@@ -1,6 +1,7 @@
 module.exports = {
 	docs: [
 		'introducing',
+		'installation',
 		{
 			type: 'category',
 			label: 'Developer Guide',
@@ -37,6 +38,5 @@ module.exports = {
 		'others',
 		'planning',
 		'cruels',
-		'installation',
 	],
 };
