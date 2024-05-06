@@ -8,7 +8,7 @@ slug: /guide/dialogue
 # Script Dialogue
 
 ```javascript
-class script{
+class Contract{
 
      init(){
 

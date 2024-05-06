@@ -33,7 +33,7 @@ class TestName {
 }
 
 
-class script extends TestName{
+class Contract extends TestName{
 
      init(){
 
@@ -87,7 +87,7 @@ class A extends B {
 
 }
 
-class script {
+class Contract {
 	aa = new A();
 
 	init() {

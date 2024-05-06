@@ -44,7 +44,7 @@ Here is a simple script example:
 Generate a simple script template.
 Note: You should not have constructors
 */
-class script {
+class Contract {
 	
       init(){
         
@@ -53,7 +53,7 @@ class script {
 }
 ```
 :::caution
-- The name of the entry class must be script
+- The name of the entry class must be Contract
 - Constructors should not be implemented in entry classes
 - The init function must exist whether or not it is encoded in the function body
 :::

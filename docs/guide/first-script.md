@@ -18,7 +18,7 @@ Create a script containing **Get and Set** functions to write and read the varia
 Create a new `new_test6.js` file:
 
 ```javascript
-class script {
+class Contract {
 
      _name;
 

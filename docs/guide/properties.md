@@ -137,7 +137,7 @@ SafeMath.lte(1,2);
 
 **Map**
 ```javascript
-class script {
+class Contract {
 
      name;
      _tMap = new Map();

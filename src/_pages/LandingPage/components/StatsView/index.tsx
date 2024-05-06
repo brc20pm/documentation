@@ -11,9 +11,6 @@ const StatsView: React.FC = () => {
   const { siteConfig } = useDocusaurusContext();
 
   const { windowHeight } = useWindowSize();
-  const npmDownloads = useAgile(core.stats.NPM_DOWNLOADS);
-  const githubStars = useAgile(core.stats.GITHUB_STARS);
-  const githubForks = useAgile(core.stats.GITHUB_FORKS);
 
   return (
     <div className={styles.Container}>
@@ -27,23 +24,16 @@ const StatsView: React.FC = () => {
         <div className={styles.BadgesContainer}>
           <StatBadge
             icon={'star'}
-            number={githubStars}
+            number="100"
             text={'Stars'}
             to={`${siteConfig.customFields.githubUrl}/stargazers`}
             className={styles.Badge}
           />
           <StatBadge
             icon={'gitMerge'}
-            number={githubForks}
+            number="100"
             text={'Forks'}
             to={`${siteConfig.customFields.githubUrl}/network/members`}
-            className={styles.Badge}
-          />
-          <StatBadge
-            icon={'download'}
-            number={npmDownloads}
-            text={'Downloads'}
-            to={siteConfig.customFields.npmCoreUrl as any}
             className={styles.Badge}
           />
         </div>
