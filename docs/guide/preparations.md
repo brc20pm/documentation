@@ -23,7 +23,7 @@ https://code.visualstudio.com/
 Download BitScpt plugin
 
 ```bash
-https://github.com/BitScpt-BTC/release/releases/tag/BitScpt-Plugin
+https://github.com/BitScpt/release/tree/main/plugin
 ```
 
 Install the downloaded plug-in locally:

@@ -10,7 +10,7 @@ slug: /installation/indexer
 ## Download Link
 
 ```bash
-https://github.com/BitScpt-BTC/release/releases
+https://github.com/BitScpt/release/tree/main/indexer
 ```
 
 ## Configuration Items
