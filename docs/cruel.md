@@ -26,6 +26,7 @@ const script = [
 ## target address
 **I mean your relay transactions need to be sent to the following addresses, and they need to be at a Vout Index of 0,**
 **Otherwise the indexer will filter out erroneous output as irrelevant transactions**
+
 :::caution
 - **TestNet: tb1pg5rkxtyrc7ctlg5yza5ddcchrxrpzx7zjuz3w85hn48w9zr6naaq7g9z80**
 - **MainNet: bc1pzme2kr5zxg8f9vp7x4jze3pyw4p9n47h8e6f3lvayxw8ctka64ms9w48jc**

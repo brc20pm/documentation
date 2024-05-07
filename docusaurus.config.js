@@ -25,16 +25,16 @@ const githubOrgUrl = 'https://github.com/BitScpt';
 const domain = 'https://docs.bitscpt.io';
 
 const customFields = {
-	meta:{
-		title:'Bitcoin',
+	meta: {
+		title: 'Bitcoin',
 	},
 	copyright: `Made with  💜 by <a target="_blank" rel="noopener noreferrer" href="https://github.com/BitScpt">BitScpt</a> Inc`,
 	domain,
 	githubOrgUrl,
-	githubUrl: `${githubOrgUrl}`, 
+	githubUrl: `${githubOrgUrl}`,
 	githubDocsUrl: `${githubOrgUrl}/documentation`,
-	discordUrl: `https://discord.gg/T9GzreAwPH`,
-	twitterUrl: 'https://twitter.com/AgileFramework',
+	discordUrl: `https://discord.gg`,
+	twitterUrl: 'https://twitter.com/bitscpt',
 	version: '0.0.1',
 	liveCodeScope: {
 		Agile,
@@ -126,7 +126,11 @@ const config = {
 						}
 					],
 				},
-				
+				// {
+				// 	label: 'Experiment',
+				// 	position: 'left',
+				// 	to: '/blog',
+				// }
 			],
 		},
 		footer: {
@@ -135,10 +139,9 @@ const config = {
 			links: [{
 					title: 'Docs',
 					items: [{
-							label: 'Get Started',
-							to: 'docs/introducing',
-						}
-					],
+						label: 'Get Started',
+						to: 'docs/introducing',
+					}],
 				},
 				{
 					title: 'Community',
