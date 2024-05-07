@@ -10,11 +10,11 @@ slug: /installation/indexer
 ## Download Link
 
 ```bash
-https://github.com/BitScpt/release/tree/main/indexer
+https://github.com/bitscpt/release/tree/main/indexer
 ```
 
 ## Configuration Items
-`BitScpt.json`
+`bitscpt.json`
 ```json
 {
    "network":2,

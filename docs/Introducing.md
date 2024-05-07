@@ -34,7 +34,7 @@ Although **BitScpt does not fall directly into these categories** it carries the
 
 ## What can it do?
 
-Implement anything you want, just like Ethereum’s **Smart Scripts**
+Implement anything you want, just like Ethereum’s **Smart Contract**
 
 The difference is programming with **JavaScript**
 
