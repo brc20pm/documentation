@@ -34,18 +34,6 @@ const script = [
 - **MainNet: bc1pzme2kr5zxg8f9vp7x4jze3pyw4p9n47h8e6f3lvayxw8ctka64ms9w48jc**
 :::
 
-## Deployment fee
-**Yes...yes...that's right! In order to prevent some bad guys from deploying disgusting garbage scripts, thereby occupying the resources of the node, or even filling the node**
-
-**When the opcode is ``deploy``, as the owner of the deployment, you need to pay 15,000 satoshis in BTC MainNet to the target address**
-
-**Otherwise the indexer will filter out transactions as irrelevant!!!**
-
-
-:::success
-- **2000 satoshis in BTC TestNet**
-- **15,000 satoshis in BTC MainNet**
-:::
 
 
 
