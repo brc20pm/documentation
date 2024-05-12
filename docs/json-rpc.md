@@ -8,7 +8,7 @@ slug: /josnrpc
 
 ```bash
 curl -X POST \
-  http://xxx.xx:prot/jrpc \
+  http://xxx.xx:prot \
   -H 'Content-Type: application/json' \
 ```
 
