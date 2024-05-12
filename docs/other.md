@@ -33,7 +33,7 @@ Although this does seem ridiculous, we can't think of a better way to solve this
 
 ```javascript
 
-You can use the BTC related js library to build a Taproot transaction that complies with the BitScpt protocol rules and broadcast it to the chain.
+You can use the BTC related js library to build a Taproot transaction that complies with the OrdScript protocol rules and broadcast it to the chain.
 
 //JavaScript Source Code
 let javaScript= '...'
@@ -102,7 +102,7 @@ let data = {
 	source: hex
 }
 
-let response = await post(BitScptNode_Url + "/call", data);
+let response = await post(OrdScriptNode_Url + "/call", data);
 
 console.log(response);
 ```
@@ -137,7 +137,7 @@ let data = {
 	source: str2Hex(code)
 }
 
-let response = await post(BitScptNode_Url + "/indexer", data);
+let response = await post(OrdScriptNode_Url + "/indexer", data);
 
 console.log(response);
 
@@ -174,7 +174,7 @@ let data = {
 	source: hex
 }
 
-let response = await post(BitScptNode_Url + "/call", data);
+let response = await post(OrdScriptNode_Url + "/call", data);
 
 console.log(response);
 ```
@@ -183,13 +183,13 @@ console.log(response);
 
 ```bash
 script source code and operation instructions are stored on the BTC chain
-You can use any method to perform deduction from the block number starting from BitScpt to the latest block number to obtain the latest results.
+You can use any method to perform deduction from the block number starting from OrdScript to the latest block number to obtain the latest results.
 ```
 
 
 
-### Who runs BitScpt’s nodes?
+### Who runs OrdScript’s nodes?
 
 ```bash
-Anyone can run BitScpt node
+Anyone can run OrdScript node
 ```

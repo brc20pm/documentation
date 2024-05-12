@@ -21,20 +21,20 @@ const {
 	toast
 } = require('react-toastify');
 
-const githubOrgUrl = 'https://github.com/BitScpt';
-const domain = 'https://docs.bitscpt.io';
+const githubOrgUrl = 'https://github.com/OrdScript';
+const domain = 'https://docs.ordscript.com';
 
 const customFields = {
 	meta: {
 		title: 'Bitcoin',
 	},
-	copyright: `Made with  💜 by <a target="_blank" rel="noopener noreferrer" href="https://github.com/BitScpt">BitScpt</a> Inc`,
+	copyright: `Made with  💜 by <a target="_blank" rel="noopener noreferrer" href="https://github.com/OrdScript">OrdScript</a> Inc`,
 	domain,
 	githubOrgUrl,
 	githubUrl: `${githubOrgUrl}`,
 	githubDocsUrl: `${githubOrgUrl}/documentation`,
 	discordUrl: `https://discord.gg`,
-	twitterUrl: 'https://twitter.com/bitscpt',
+	twitterUrl: 'https://twitter.com/ordscript',
 	version: '0.0.1',
 	liveCodeScope: {
 		Agile,
@@ -55,15 +55,15 @@ const customFields = {
 };
 
 const config = {
-	title: 'BitScpt',
+	title: 'OrdScript',
 	tagline: 'Expanding Bitcoin’s Complex Programming Based on TapRoot Script',
 	url: customFields.domain,
 	baseUrlIssueBanner: false,
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	favicon: 'img/favicon.ico',
-	organizationName: 'BitScpt',
-	projectName: 'BitScpt',
+	organizationName: 'OrdScript',
+	projectName: 'OrdScript',
 	themes: ['@docusaurus/theme-live-codeblock'],
 	scripts: [{
 		src: 'https://snack.expo.io/embed.js',
@@ -99,7 +99,7 @@ const config = {
 			title: ' ',
 			hideOnScroll: true,
 			logo: {
-				alt: 'My Site Logo',
+				alt: 'ordScript Logo',
 				src: 'img/logo.svg',
 			},
 			items: [

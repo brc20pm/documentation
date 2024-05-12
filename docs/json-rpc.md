@@ -24,13 +24,13 @@ curl -X POST \
  - 8399
 
 
-## bit_call
+## ord_call
 ```json
 {
   "jsonrpc": "2.0",
-  "method": "bit_call",
+  "method": "ord_call",
   "params": {
-    "kid": "bit7b19b528298c3dfae6e588b91b40945eaec4ad56bc29bb92bc023860ee",
+    "kid": "ord7b19b528298c3dfae6e588b91b40945eaec4ad56bc29bb92bc023860ee",
     "method":"$name",
     "params":[]
   },
@@ -94,7 +94,7 @@ curl -X POST \
   "jsonrpc": "2.0",
   "method": "getScriptModel",
   "params": {
-    "kid": "bitd266d91d0c96ca1cdc357f576571b26a662a7fa"
+    "kid": "ordd266d91d0c96ca1cdc357f576571b26a662a7fa"
   },
   "id": "243a718a-2ebb-4e32-8cc8-210c39e8a14b"
 }
