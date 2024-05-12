@@ -47,9 +47,9 @@ POST
 		"input": {
 			"method": "$name",
 			"params": [],
-			"kid": "Bit7f5cf1e5f7e9b859727d2bfdf21f0d086e7424d6cec8888dc51e1f116c"
+			"kid": "ord7f5cf1e5f7e9b859727d2bfdf21f0d086e7424d6cec8888dc51e1f116c"
 		},
-		"out": "Bit-INSC"
+		"out": "INSC"
 	},
 	"msg": "success"
 }

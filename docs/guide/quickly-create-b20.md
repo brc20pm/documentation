@@ -17,8 +17,8 @@ In order for developers to quickly deploy and manage tokens, we provide a built-
 class Contract extends B20{
 
      init() {
-         this._name = 'B20';
-         this._symbol = 'K2';
+         this._name = 'BIP20';
+         this._symbol = 'B20';
 		 this._allowances = new Map();//Note that MAP must be re-created
 		 this._balances = new Map();//Note that MAP must be re-created
          this._totalSupply = SafeMath.val(100000000);

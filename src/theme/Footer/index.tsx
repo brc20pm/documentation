@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
                 src="/img/logo.svg"
                 title={siteConfig.tagline}
               />
-              <div className={styles.BrandText}>BitScpt</div>
+              <div className={styles.BrandText}>OrdScript</div>
             </div>
             <div className={styles.Tagline}>{siteConfig.tagline}</div>
             <GithubButton

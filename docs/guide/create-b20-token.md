@@ -6,7 +6,7 @@ slug: /guide/create-b20-token
 --- 
 
 
-# Create B20 Token on Satoshi
+# Create B20 Token on OrdScript
 
 **BIP-20**
 The standard requires the following functionality to be implemented to ensure the operation and management of the token:
@@ -37,7 +37,7 @@ class Contract {
 		this._allowances = new Map();
 		this._balances = new Map();
 
-		this._name = 'B20';
+		this._name = 'BIP20';
 		this._symbol = 'B20';
 		this._totalSupply = SafeMath.val(100000000);
 		this._balances.setBucket(this._msgSender(), this._totalSupply);

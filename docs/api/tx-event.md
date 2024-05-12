@@ -42,7 +42,7 @@ GET
 			"e_hash": "feaf4f07446e054f1e293e8a88ee7300f96ea168121831ac90e2b37949180e61",
 			"height": 2588458,
 			"tx_hash": "84873f52a254e62eadd8339801562ab1b70fc0ac81f50fe3d50a4430e6978c3f",
-			"kid": "bitc99046834c9cf08c0caefe78b7345b3d0e04445",
+			"kid": "ordc99046834c9cf08c0caefe78b7345b3d0e04445",
 			"name": "Transfer",
 			"args": {
 				"amount": 900,

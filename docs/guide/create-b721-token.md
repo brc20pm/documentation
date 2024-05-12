@@ -6,7 +6,7 @@ slug: /guide/create-b721-token
 --- 
 
 
-# Create B721 Token on Satoshi
+# Create B721 Token on OrdScript
 
 **BIP-721**
 The standard requires the following functionality to be implemented to ensure the operation and management of the token:
@@ -47,8 +47,8 @@ class Contract {
 
     init() {
         this._tokenIdCounter = 1000;
-        this._name = 'Bit-721';
-        this._symbol = 'K721';
+        this._name = 'BIP721';
+        this._symbol = 'B721';
         this._baseUrl = 'baseUrl:';
         this._totalSupply = SafeMath.val(0);
 

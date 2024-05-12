@@ -17,8 +17,8 @@ class Contract extends B721{
 
     init(){
         this._tokenIdCounter = 1000;
-        this._name = 'Bit-721';
-        this._symbol = 'K721';
+        this._name = 'BIP721';
+        this._symbol = 'B721';
         this._baseUrl = 'baseUrl://';
         this._owners = new Map();//Note that MAP must be re-created
         this._balances = new Map();//Note that MAP must be re-created

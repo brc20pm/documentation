@@ -39,7 +39,7 @@ class Contract {
 
 :::caution
 
-**In the BitScpt protocol, function names starting with $ are read-only functions, _ are private functions, and functions without any symbols are write functions**
+**In the OrdScript protocol, function names starting with $ are read-only functions, _ are private functions, and functions without any symbols are write functions**
 
 :::
 

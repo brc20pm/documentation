@@ -23,7 +23,7 @@ https://code.visualstudio.com/
 Download OrdScript plugin
 
 ```bash
-https://github.com/bitscpt/release/tree/main/plugin
+https://github.com/ordscript/release/tree/main/plugin
 ```
 
 Install the downloaded plug-in locally:
