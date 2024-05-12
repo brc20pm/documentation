@@ -16,7 +16,7 @@ const script = [
 	'OP_CHECKSIG',
 	'OP_0',
 	'OP_IF',
-	ec.encode('bits'),
+	ec.encode('ord'),
 	'01',
 	ec.encode('send' || 'deploy'),
 	'OP_0',

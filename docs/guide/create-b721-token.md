@@ -6,7 +6,7 @@ slug: /guide/create-b721-token
 --- 
 
 
-# Create B721 Token on BitScpt
+# Create B721 Token on Satoshi
 
 **BIP-721**
 The standard requires the following functionality to be implemented to ensure the operation and management of the token:
@@ -154,7 +154,7 @@ class Contract {
 
         this._totalSupply = SafeMath.add(this._totalSupply, 1)
 
-        this.event({name:'Transfer',from:'BitScpt',to,tokenId})
+        this.event({name:'Transfer',from:'Satoshi',to,tokenId})
     }
 
     _approve(to, tokenId) {

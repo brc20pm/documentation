@@ -6,7 +6,7 @@ slug: /guide/create-b20-token
 --- 
 
 
-# Create B20 Token on BitScpt
+# Create B20 Token on Satoshi
 
 **BIP-20**
 The standard requires the following functionality to be implemented to ensure the operation and management of the token:
@@ -43,7 +43,7 @@ class Contract {
 		this._balances.setBucket(this._msgSender(), this._totalSupply);
 		this.event({
 			name: 'Transfer',
-			from: 'BitScpt',
+			from: 'Satoshi',
 			to: this._msgSender(),
 			amount: this._totalSupply
 		});

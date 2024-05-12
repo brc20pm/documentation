@@ -125,12 +125,7 @@ const config = {
 							href: customFields.twitterUrl,
 						}
 					],
-				},
-				// {
-				// 	label: 'Experiment',
-				// 	position: 'left',
-				// 	to: '/blog',
-				// }
+				}
 			],
 		},
 		footer: {

@@ -8,14 +8,14 @@ slug: /others
 
 ### Zero address
 
-We use ``BitScpt`` instead of zero address
+We use ``Satoshi`` instead of zero address
 
 For example, there is a token transfer log
 
 ```javascript
 this.event({
 	name:'...'
-	from:'BitScpt',
+	from:'Satoshi',
 	to:'...'
 })
 ```
@@ -53,7 +53,7 @@ const script = [
 	'OP_CHECKSIG', 
 	'OP_0', 
 	'OP_IF', 
-	ec.encode('bits'), 
+	ec.encode('ord'), 
 	'01', 
 	ec.encode('send' || 'deploy'), 
 	'OP_0', 
