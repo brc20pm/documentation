@@ -7,11 +7,8 @@ slug: /introducing
  
 # introduce
  
-Bitcoin smart contract inscription implementation based on Ordinals
 
-## OrdScript: Smart contracts on Bitcoin
-
-### introduce
+### OrdScript: Bitcoin smart contract inscription implementation based on Ordinals
 
 Regarding the implementation of the ideas in Ordnals [discussions](https://github.com/ordinals/ord/discussions/2217), it ended up being somewhat different but mostly inspired by his ideas.
 
