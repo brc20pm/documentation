@@ -56,11 +56,11 @@ const customFields = {
 
 const config = {
 	title: 'OrdScript',
-	tagline: 'Expanding Bitcoin’s Complex Programming Based on TapRoot Script',
+	tagline: 'Bitcoin smart contract inscription implementation based on Ordinals',
 	url: customFields.domain,
 	baseUrlIssueBanner: false,
 	baseUrl: '/',
-	onBrokenLinks: 'throw',
+	onBrokenLinks: 'throw', 
 	favicon: 'img/favicon.ico',
 	organizationName: 'OrdScript',
 	projectName: 'OrdScript',
@@ -96,7 +96,7 @@ const config = {
 			defaultLanguage: 'javascript',
 		},
 		navbar: {
-			title: ' ',
+			title: '',
 			hideOnScroll: true,
 			logo: {
 				alt: 'ordScript Logo',

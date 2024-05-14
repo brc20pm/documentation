@@ -6,8 +6,8 @@ slug: /introducing
 ---
  
 # introduce
-
-OrdScript - an ordinals native programming language
+ 
+Bitcoin smart contract inscription implementation based on Ordinals
 
 ## OrdScript: Smart contracts on Bitcoin
 
@@ -24,7 +24,6 @@ The final ideal implementation: It should be like the ChainLink decentralized or
 - In May 2023, with the rise of Unisat, MagicEden and other platforms, a flourishing Bitcoin ecosystem was rapidly formed. While these advancements advance Bitcoin’s token mechanics, they lack a key component—developer programming autonomy.
 - OrdScript was born from this vision. It is a revolutionary tool that unlocks endless possibilities for developers. Like Ethereum’s smart scripts, OrdScript makes it possible to develop and execute decentralized applications. However, what sets it apart is its use of JavaScript, a language well-known among developers for its ubiquity and ease of use.
 - OrdScript is designed to make anything you imagine possible. It brings the versatility of Ethereum smart scripts to the reliable, secure Bitcoin network, but with a twist – using JavaScript. This approach not only makes blockchain development easier, but also opens up new horizons for innovation that were previously limited to more complex programming languages.
-- OrdScript is an important extension to the Bitcoin ecosystem. It is not just an enhancement to existing technology, but a bridge that perfectly combines the stability of Bitcoin with the innovation of modern blockchain technology. With OrdScript, developers can create complex smart scripts on the Bitcoin network, perform cross-chain transactions, and even develop and manage decentralized applications while maintaining the core security and decentralized nature of the Bitcoin network.
 
 ### Conclusion
 

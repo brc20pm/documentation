@@ -36,7 +36,6 @@ module.exports = {
 		},
 		'json-rpc',
 		'others',
-		'planning',
 		'cruels',
 	],
 };
