@@ -8,13 +8,8 @@ slug: /introducing
 # introduce
  
 
-### OrdScript: Bitcoin smart contract inscription implementation based on Ordinals
+### OrdScript: Bitcoin smart contract inscription implementation
 
-Regarding the implementation of the ideas in Ordnals [discussions](https://github.com/ordinals/ord/discussions/2217), it ended up being somewhat different but mostly inspired by his ideas.
-
-In June 2023, [danny huuep](https://twitter.com/huuep) proposed the idea of "OrdScript" in the Ordinals discussion and [posted](https://twitter.com/huuep/status/1672369925929975809) on the social platform X.com, triggering heated discussions. Developing a dedicated language is a very large project and very difficult! So we use the existing programming language JavaScript to accomplish this. Although the final implementation is different from danny huuep's idea, it can be fully compatible or incorporated into Ordinals.
-
-The final ideal implementation: It should be like the ChainLink decentralized oracle network, solving the existing indexer centralization problem through Offchain Reporting (OCR)
 
 ### Development background
 - In March 2023, the Bitcoin network witnessed an epoch-making evolution—the launch of the Ordinal Protocol. The protocol specifies a way to seamlessly run tokens and NFTs on the Bitcoin network.
