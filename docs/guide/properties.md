@@ -135,6 +135,42 @@ SafeMath.qte(1,2);
 SafeMath.lte(1,2);
 ```
 
+
+**forAny**
+```javascript
+// do while && while && for && array.forEach is disable
+// do while && while && for && array.forEach is disable
+// do while && while && for && array.forEach is disable
+
+forAny((key,value)=>{
+   
+},object,[endIndex],[startIndex])
+
+forAny((key,value)=>{
+   //iterable object or array
+},object)
+
+forAny((key,value)=>{
+   //Iterate over an array and specify the end and start indexes
+},array,10,2)
+
+forAny((key,value)=>{
+	//Iterate completely and specify starting index
+},array,-1,2)
+
+forAny((key,value)=>{
+
+},array,10)
+
+forAny((key,value)=>{
+   //Specify the number of iterations
+},null,1000)
+
+forAny((key,value)=>{
+   //Specify the number of iterations and specify the starting index
+},null,1000,200)
+```
+
 **Map**
 ```javascript
 class Contract {
