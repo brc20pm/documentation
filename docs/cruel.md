@@ -5,6 +5,14 @@ sidebar_label: CRUEL THINGS
 slug: /cruels 
 ---
 
+## Disabled attributes
+**for**
+**while**
+**do while**
+**.forEach**
+**Date**
+**Math.random**
+
 ## Execution time
 **The duration of each trading operation is only 3 seconds. If the limit is exceeded, execution will fail. It should be noted that you should not rely on execution duration. Instead, the code limits the stack depth to 512 and the forAny iteration limit to 5000 times for optimization****
 
