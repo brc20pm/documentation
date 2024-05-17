@@ -33,15 +33,6 @@ const script = [
 ]
 ```
 
-## target address
-**I mean your relay transactions need to be sent to the following addresses, and they need to be at a Vout Index of 0,**
-**Otherwise the indexer will filter out erroneous output as irrelevant transactions**
-
-:::caution
-- **MainNet: 3LAoUiU2X2cKRURL3hTHMufHM15Xrk2K9s**
-- **TestNet: 2N4vkrW97TmqdtdkHvMpfuRMqJF17CSvbFC**
-:::
-
 
 
 

@@ -56,7 +56,7 @@ const customFields = {
 
 const config = {
 	title: 'OrdScript',
-	tagline: 'Bitcoin smart contract inscription implementation based on Ordinals',
+	tagline: 'It is not L2, the modular execution layer brings programmability directly into the Bitcoin base layer',
 	url: customFields.domain,
 	baseUrlIssueBanner: false,
 	baseUrl: '/',

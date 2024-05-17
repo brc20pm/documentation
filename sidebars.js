@@ -1,10 +1,13 @@
 module.exports = {
 	docs: [
 		'introducing',
+		'modular',
+		'monetization',
+		'governance',
 		'installation',
 		{
 			type: 'category',
-			label: 'Developer Guide',
+			label: 'DEVELOPER GUIDE',
 			collapsed: false,
 			items: [
 				'guide/preparations',
