@@ -4,6 +4,7 @@ module.exports = {
 		'modular',
 		'monetization',
 		'governance',
+		'principle',
 		'installation',
 		{
 			type: 'category',
