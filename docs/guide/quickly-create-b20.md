@@ -25,7 +25,7 @@ class Contract extends B20{
          this._balances.setBucket(this._msgSender(), this._totalSupply);
          this.event({
              name: 'Transfer',
-             from: 'Satoshi',
+             from: address(0),
              to: this._msgSender(),
              amount: this._totalSupply
          });

@@ -7,7 +7,7 @@ module.exports = {
 		'installation',
 		{
 			type: 'category',
-			label: 'DEVELOPER GUIDE',
+			label: '🧑‍💻 Developer guide',
 			collapsed: false,
 			items: [
 				'guide/preparations',
@@ -23,7 +23,7 @@ module.exports = {
 		},
 		{
 			type: 'category',
-			label: 'API',
+			label: '📃 API',
 			collapsed: false,
 			items: [
 				'api/best-number',

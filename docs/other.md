@@ -1,21 +1,21 @@
 ---
 id: others 
 title: Other Notes
-sidebar_label: OTHERS 
+sidebar_label: Others Notes
 slug: /others 
 ---
 
 
 ### Zero address
 
-We use ``Satoshi`` instead of zero address
+We use ``address(0)`` instead of zero address
 
 For example, there is a token transfer log
 
 ```javascript
 this.event({
 	name:'...'
-	from:'Satoshi',
+	from:'address(0)',
 	to:'...'
 })
 ```

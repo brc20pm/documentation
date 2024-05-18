@@ -1,11 +1,11 @@
 ---
 id: introducing 
 title: Introducing OrdScript
-sidebar_label: INTRODUCING 
+sidebar_label: 📖 Introducing 
 slug: /introducing
 ---
  
-# introduce
+# Introduce
  
 
 OrdScript: The execution layer brings programmability directly into the Bitcoin base layer. It does not rely on any bridge or L2. It is an independent protocol that adds color to the richer Bitcoin ecosystem.

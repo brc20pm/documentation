@@ -1,7 +1,7 @@
 ---
 id: json-rpc 
 title: JSON-RPC
-sidebar_label: JSON-RPC 
+sidebar_label: 📄 JSON-RPC 
 slug: /josnrpc
 ---
 

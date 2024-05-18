@@ -154,7 +154,7 @@ class Contract {
 
         this._totalSupply = SafeMath.add(this._totalSupply, 1)
 
-        this.event({name:'Transfer',from:'Satoshi',to,tokenId})
+        this.event({name:'Transfer',from:address(0),to,tokenId})
     }
 
     _approve(to, tokenId) {

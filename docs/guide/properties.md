@@ -9,6 +9,10 @@ slug: /guide/properties
 
 # Script Properties
 
+**Zero address**
+```javascript
+address(0) //Don't pass anything except 0.，only 0 only 0 only 0
+```
 
 **Block height**
 ```javascript

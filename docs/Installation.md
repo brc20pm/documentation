@@ -1,7 +1,7 @@
 ---
 id: installation
 title: Installation
-sidebar_label: INSTALLATION
+sidebar_label: 📦 Installation
 slug: /installation/indexer
 --- 
 

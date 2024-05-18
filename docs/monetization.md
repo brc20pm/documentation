@@ -1,7 +1,7 @@
 ---
 id: monetization 
 title: Monetization
-sidebar_label: MONETIZATION
+sidebar_label: 💴‍ Monetization
 slug: /monetization	
 ---
 
@@ -22,20 +22,29 @@ The transaction fee model is a fundamental monetization strategy for platforms l
 ### On Mainnet
 
 **deploy** 
-- 10000 Satoshis will be charged as a fee, regardless of the size of the bytecode to be deployed
+- 10000 address(0)s will be charged as a fee, regardless of the size of the bytecode to be deployed
 
 **send** 
-- 1000 Satoshis will be charged as a fee, regardless of the size of the bytecode to be executed
+- 1000 address(0)s will be charged as a fee, regardless of the size of the bytecode to be executed
 
 ### On Testnet
 
-- There is no charge for now, but previous data may be discarded and searches will start from a new area soon.
+**deploy** 
+- 1000 address(0)s will be charged as a fee, regardless of the size of the bytecode to be deployed
+
+**send** 
+- 1000 address(0)s will be charged as a fee, regardless of the size of the bytecode to be executed
 
 
-## target address
+## Target address
 Your relay transaction needs to be sent to the following addresses, they need to be at an index of 0 and pay the above transaction fee
 
 :::caution
 - **MainNet: 3LAoUiU2X2cKRURL3hTHMufHM15Xrk2K9s**
 - **TestNet: 2N4vkrW97TmqdtdkHvMpfuRMqJF17CSvbFC**
 :::
+
+
+## Anchor Token Conversion
+
+#### When the transaction operation code is Send, 50% of the transaction fee of 1000 Satoshis you paid and the excess will be automatically converted into the anchor token **ORDS** after 6-12 blocks are confirmed (1 ORDS = 1 Satoshis)

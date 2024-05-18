@@ -1,8 +1,8 @@
 ---
 id: modular 
 title: Modular Blockchain
-sidebar_label: MODULAR BLOCKCHAIN
-slug: /modular	
+sidebar_label: ⛓️ Modular Blockchain
+slug: /modular	 
 ---
 
 **Modular blockchains** – a relatively new concept in crypto – are blockchains that are made up of different modules that can be added or removed as needed. Each module performs a specific function, making the blockchain more flexible and adaptable to changing needs, allowing for greater customization and specialization. Modular blockchains can help increase the scalability and efficiency of blockchain networks, allowing more people to begin to adopt and use crypto technology.

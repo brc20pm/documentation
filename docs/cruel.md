@@ -1,7 +1,7 @@
 ---
 id: cruels 
 title: Cruel things
-sidebar_label: CRUEL THINGS
+sidebar_label: Cruel things
 slug: /cruels 
 ---
 
