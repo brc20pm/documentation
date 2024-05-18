@@ -8,14 +8,14 @@ slug: /others
 
 ### Zero address
 
-We use ``address(0)`` instead of zero address
+We use ``ord000000000000000000000000000000000000000`` instead of zero address
 
 For example, there is a token transfer log
 
 ```javascript
 this.event({
 	name:'...'
-	from:'address(0)',
+	from:'ord000000000000000000000000000000000000000',
 	to:'...'
 })
 ```
