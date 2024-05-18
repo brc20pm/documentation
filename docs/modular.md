@@ -5,8 +5,9 @@ sidebar_label: ⛓️ Modular Blockchain
 slug: /modular	 
 ---
 
-**Modular blockchains** – a relatively new concept in crypto – are blockchains that are made up of different modules that can be added or removed as needed. Each module performs a specific function, making the blockchain more flexible and adaptable to changing needs, allowing for greater customization and specialization. Modular blockchains can help increase the scalability and efficiency of blockchain networks, allowing more people to begin to adopt and use crypto technology.
+![](./guide/img/1_2KjtR1MgYdf04gejMUwepQ.webp)
 
+**Modular blockchain** refers to a blockchain that completely outsources at least one of the four components of "execution layer, settlement layer, consensus layer, and data availability layer" to an external chain. Because serving millions or billions of users on a monolithic chain was too complex and had limited solution capabilities, people proposed sharding and Layer 2 solutions, which later evolved into modular blockchains.
 
 ### The Modular Blockchain Stack
 The four main blockchain layers: 

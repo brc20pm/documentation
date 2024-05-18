@@ -5,6 +5,8 @@ module.exports = {
 		'monetization',
 		'governance',
 		'principle',
+		'reporting',
+		'musig2',
 		'installation',
 		{
 			type: 'category',
