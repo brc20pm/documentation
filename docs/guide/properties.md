@@ -146,6 +146,15 @@ SafeMath.lte(1,2);
 // do while && while && for && array.forEach is disable
 // do while && while && for && array.forEach is disable
 
+
+// Each call occupies two stacks [forAny-callback],
+// Actively terminate execution when true is returned.
+
+// forAny(callback,values,endIndex,startIndex)
+// callback(key,value)
+
+// Maximum number of iterations 5000
+
 forAny((key,value)=>{
    
 },object,[endIndex],[startIndex])
