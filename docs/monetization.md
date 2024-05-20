@@ -47,4 +47,11 @@ Your relay transaction needs to be sent to the following addresses, they need to
 
 ## Anchor Token Conversion
 
-### When the transaction operation code is Send, the excess of the transaction fee you pay will be automatically converted into anchor tokens **ORDS** (1 ORDS = 1 Satoshi) after 6-12 block confirmations
+When the transaction operation code is Send, the excess of the transaction fee you pay will be automatically converted into anchor tokens **ORDS** (1 ORDS = 1 Satoshi) after 6-12 block confirmations,Tokens are automatically converted only through transaction fees, the minimum transfer amount is 1, and only integer transfers are supported
+
+**KID: ord000000000000000000000000000000000000001**
+
+**Name: ORD Script Token**
+
+**Symbol: ORDS**
+

@@ -38,6 +38,22 @@ curl -X POST \
 }
 ```
 
+## orc_call
+```json
+{
+	"jsonrpc": "2.0",
+	"method": "orc_call",
+	"params": {
+		"quorum": 21, //Optional parameters, range 1-21, default 21
+		"call_data": {
+			"kid": "ord83633b22d3b7a211333081bece366c8f121994a",
+			"method": "$name",
+			"params": []
+		}
+	},
+	"id": "dd7bce47-26de-44f5-a6ca-5b1d7b03b215"
+}
+```
 
 ## bestBlockNumber
 ```json
