@@ -25,7 +25,7 @@ You can use it using JSON-RPC
 ```json
 {
 	"jsonrpc": "2.0",
-	"method": "orc_call",
+	"method": "ocr_call",
 	"params": {
 		"quorum": 21, //Optional parameters, range 1-21, default 21
 		"call_data": {
