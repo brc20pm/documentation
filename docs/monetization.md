@@ -44,14 +44,3 @@ Your relay transaction needs to be sent to the following addresses, they need to
 - **TestNet: 2N4vkrW97TmqdtdkHvMpfuRMqJF17CSvbFC**
 :::
 
-
-## Anchor Token Conversion
-
-When the transaction operation code is Send, the excess of the transaction fee you pay will be automatically converted into anchor tokens **SATS** (1 SATS = 1 Bitcoin Satoshi) after 6-12 block confirmations,Tokens are automatically converted only through transaction fees, the minimum transfer amount is 1, and only integer transfers are supported
-
-**KID: ord000000000000000000000000000000000000001**
-
-**Name: Satoshi Token**
-
-**Symbol: SATS**
-
