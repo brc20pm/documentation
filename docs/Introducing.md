@@ -8,7 +8,7 @@ slug: /introducing
 # Introduce
  
 
-OrdScript: The execution layer brings programmability directly into the Bitcoin base layer. It does not rely on any bridge or L2. It is an independent protocol that adds color to the richer Bitcoin ecosystem.
+OrdScript: It is not L2, the modular execution layer brings programmability directly into the Bitcoin base layer
 
 ### Development background
 - In March 2023, the Bitcoin network witnessed an epoch-making evolution—the launch of the Ordinal Protocol. The protocol specifies a way to seamlessly run tokens and NFTs on the Bitcoin network.
