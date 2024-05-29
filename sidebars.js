@@ -1,12 +1,13 @@
 module.exports = {
 	docs: [
 		'introducing',
-		'modular',
-		'monetization',
-		'governance',
+		'standard',
+		// 'modular',
+		// 'monetization',
+		// 'governance',
 		'principle',
 		'reporting',
-		'musig2',
+		// 'musig2',
 		'installation',
 		{
 			type: 'category',
@@ -42,6 +43,5 @@ module.exports = {
 		},
 		'json-rpc',
 		'others',
-		'cruels',
 	],
 };

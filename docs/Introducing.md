@@ -8,17 +8,17 @@ slug: /introducing
 # Introduce
  
 
-OrdScript: It is not L2, the modular execution layer brings programmability directly into the Bitcoin base layer
+This is a BRC20 extension module that will bring programmability to Bitcoin. You can think of it as an execution layer in a modular blockchain.
 
 ### Development background
-- In March 2023, the Bitcoin network witnessed an epoch-making evolution—the launch of the Ordinal Protocol. The protocol specifies a way to seamlessly run tokens and NFTs on the Bitcoin network.
+- In March 2023, the Bitcoin network underwent a landmark change with the release of the Ordinals protocol. Domo then proposed the BRC20 standard, which specifies a method for seamlessly running tokens and NFTs on the Bitcoin network.
 - In May 2023, with the rise of Unisat, MagicEden and other platforms, a flourishing Bitcoin ecosystem was rapidly formed. While these advancements advance Bitcoin’s token mechanics, they lack a key component—developer programming autonomy.
-- OrdScript was born from this vision. It is a revolutionary tool that unlocks endless possibilities for developers. Like Ethereum’s smart scripts, OrdScript makes it possible to develop and execute decentralized applications. However, what sets it apart is its use of JavaScript, a language well-known among developers for its ubiquity and ease of use.
-- OrdScript is designed to make anything you imagine possible. It brings the versatility of Ethereum smart scripts to the reliable, secure Bitcoin network, but with a twist – using JavaScript. This approach not only makes blockchain development easier, but also opens up new horizons for innovation that were previously limited to more complex programming languages.
+- ORD Script was born from this vision. It is a revolutionary tool that unlocks endless possibilities for developers. Like Ethereum's Smart Script, OrdScript makes it possible to develop and execute decentralized applications in the BRC20 standard. However, what makes it unique is that it uses JavaScript, a language well-known among developers for its ubiquity and ease of use.
+- ORD Script is designed to make anything you imagine possible. It brings the versatility of Ethereum smart scripts to the reliable, secure Bitcoin network, but with a twist – using JavaScript. This approach not only makes blockchain development easier, but also opens up new horizons for innovation that were previously limited to more complex programming languages.
 
 ### Conclusion
 
-  **OrdScript** is an important expansion of the Bitcoin ecosystem. It is not just an enhancement to existing technology, but a bridge that perfectly combines the stability of Bitcoin with the innovation of modern blockchain technology. Through OrdScript, developers can deploy complex smart scripts on the Bitcoin network, perform cross-chain transactions, and even develop and manage decentralized applications, while maintaining the core security and decentralization features of the Bitcoin network.
+**OrdScript** is an important extension of the BRC20 standard. It is not only an enhancement to the existing standard, but also a bridge that perfectly combines the stability of Bitcoin with the innovation of modern blockchain technology. Through OrdScript, developers can deploy complex smart scripts on the Bitcoin network, conduct cross-chain transactions, and even develop and manage decentralized applications while maintaining the core security and decentralization of the Bitcoin network.
 
 ## What can it do?
 

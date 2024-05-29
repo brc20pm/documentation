@@ -55,8 +55,8 @@ const customFields = {
 };
 
 const config = {
-	title: 'OrdScript',
-	tagline: 'It is not L2, the modular execution layer brings programmability directly into the Bitcoin base layer',
+	title: 'ORD Script',
+	tagline: 'This is a BRC20 extension module that will bring programmability to Bitcoin. You can think of it as an execution layer in a modular blockchain.',
 	url: customFields.domain,
 	baseUrlIssueBanner: false,
 	baseUrl: '/',

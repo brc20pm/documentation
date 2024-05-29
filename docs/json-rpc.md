@@ -25,6 +25,8 @@ curl -X POST \
 
 
 ## ord_call
+Called through the light client interface
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -39,6 +41,8 @@ curl -X POST \
 ```
 
 ## ocr_call
+Calling through multi-node aggregation
+
 ```json
 {
 	"jsonrpc": "2.0",
@@ -56,6 +60,8 @@ curl -X POST \
 ```
 
 ## bestBlockNumber
+Get the latest block number of the index
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -67,6 +73,8 @@ curl -X POST \
 
 
 ## getTransaction
+Query Transaction
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -80,6 +88,8 @@ curl -X POST \
 
 
 ## getEvents
+Query the event log
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -92,6 +102,8 @@ curl -X POST \
 ```
 
 ## getBlockNumber
+Query transactions contained in a block
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -105,6 +117,8 @@ curl -X POST \
 
 
 ## getScriptModel
+Query script model
+
 ```json
 {
   "jsonrpc": "2.0",
@@ -118,6 +132,8 @@ curl -X POST \
 
 
 ## version
+Query the indexer version
+
 ```json
 {
   "jsonrpc": "2.0",

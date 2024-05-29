@@ -5,6 +5,20 @@ sidebar_label: Others Notes
 slug: /others 
 ---
 
+### Disabled attributes
+**for**
+**while**
+**do while**
+**.forEach**
+**Date**
+**Math.random**
+
+### Execution restrictions
+**The duration of each trading operation is only 3 seconds. If the limit is exceeded, execution will fail. It should be noted that you should not rely on execution duration. Instead, the code limits the stack depth to 512 and the forAny iteration limit to 5000 times for optimization****
+
+
+### Minimum OutValue
+The first output address's satoshi should be greater than or equal to **2000**
 
 ### Zero address
 
@@ -27,16 +41,15 @@ Although this does seem ridiculous, we can't think of a better way to solve this
 
 ### How to use the front end for script interaction?
 
-### TestNet || MianNet
+#### TestNet || MainNet
 
-#### `send || deploy`
+##### `send || deploy`
 
 ```javascript
-
-You can use the BTC related js library to build a Taproot transaction that complies with the OrdScript protocol rules and broadcast it to the chain.
+//You can use the BTC related js library to build a Taproot transaction that complies with the OrdScript protocol rules and broadcast it to the chain.
 
 //JavaScript Source Code
-let javaScript= '...'
+let code = '...'
 
 
 //Operation
@@ -48,68 +61,44 @@ let callData = {
 
 
 //Script example
+const marker = ec.encode('ord')
+const mimetype = ec.encode('text/plain;charset=utf-8')
+
+const brc20JSON = {
+	"p": "brc-20",
+	"op": "send || deploy",
+	"src": textToHex(code || JSON.stringify(calldata))
+}
+
+
+// Basic format of an 'inscription' script.
 const script = [
-	'Your Pubkey',
-	'OP_CHECKSIG', 
-	'OP_0', 
-	'OP_IF', 
-	ec.encode('ord'), 
-	'01', 
-	ec.encode('send' || 'deploy'), 
-	'OP_0', 
-	ec.encode(javaScript || JSON.stringify(callData)),
+	'Your PubKey',
+	'OP_CHECKSIG',
+	'OP_0',
+	'OP_IF',
+	marker,
+	'01',
+	mimetype,
+	'OP_0',
+	ec.encode(JSON.stringify(brc20JSON)),
 	'OP_ENDIF'
 ]
 
-//OutAddress in TestNet: 2N4vkrW97TmqdtdkHvMpfuRMqJF17CSvbFC
-//OutAddress in MainNet: 3LAoUiU2X2cKRURL3hTHMufHM15Xrk2K9s
-
-const tx_data = await tapScript.Tx.create({
-	version: 2,
-	vin: [...],
-	vout: [{
-		value: 1000_00,
-		// This is the new script that we are locking our funds to.
-		scriptPubKey: tapScript.Address.toScriptPubKey('OutAddress')
-	}]
-})
+function textToHex(text) {
+	var encoder = ec.encode(text);
+	return [...new Uint8Array(encoder)]
+		.map(x => x.toString(16).padStart(2, "0"))
+		.join("");
+}
 
 ```
 
-:::caution
-- **TestNet: 2N4vkrW97TmqdtdkHvMpfuRMqJF17CSvbFC**
-- **MainNet: 3LAoUiU2X2cKRURL3hTHMufHM15Xrk2K9s**
-:::
 
 
-### TestNet || MianNet
+#### LocalNet
 
-#### `call`
-
-```javascript
-let callData = {
-	kid: 'kid',
-	method: 'method',
-	params: [...params],
-}
-
-let arg = JSON.stringify(callData);
-
-let hex = str2Hex(arg)
-
-let data = {
-	sender: account,
-	source: hex
-}
-
-let response = await post(OrdScriptNode_Url + "/call", data);
-
-console.log(response);
-```
-
-### LocalNet
-
-#### `send || deploy`
+##### `send || deploy`
 
 ```javascript
 //Send
@@ -151,32 +140,6 @@ function codeMinify(code) {
 	if (result.error) throw result.error;
 	return result.code
 }
-```
-
-### LocalNet
-
-#### `call`
-
-```javascript
-let callData = {
-	kid: 'kid',
-	method: 'method',
-	params: [...params],
-}
-
-let arg = JSON.stringify(callData);
-
-//Convert to hexadecimal string
-let hex = str2Hex(arg)
-//Build data
-let data = {
-	sender: account,
-	source: hex
-}
-
-let response = await post(OrdScriptNode_Url + "/call", data);
-
-console.log(response);
 ```
 
 ### Where is the script stored?
