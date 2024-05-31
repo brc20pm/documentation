@@ -6,7 +6,7 @@ slug: /guide/create-b20-token
 --- 
 
 
-# Create B20 Token on OrdScript
+# Create B20 Token on BRC20pm
 
 **BIP-20**
 The standard requires the following functionality to be implemented to ensure the operation and management of the token:

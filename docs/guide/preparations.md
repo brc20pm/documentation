@@ -9,21 +9,21 @@ slug: /guide/preparations
 
 # Development preparation
 
-In this document we will download & install Visual Studio Code and OrdScript plug-ins to prepare for the next development
+In this document we will download & install Visual Studio Code and BRC20pm plugin to prepare for the next development
 
-## install VSCode
+## install Visual Studio Code
 
 Download & Install Visual Studio Code
 
 ```bash
 https://code.visualstudio.com/
 ```
-## install OrdScript-Plugin
+## install BRC20pm-Plugin
 
-Download OrdScript plugin
+Download BRC20pm plugin
 
 ```bash
-https://github.com/ordscript/release/tree/main/plugin
+https://github.com/brc20pm/release/tree/main/plugin
 ```
 
 Install the downloaded plug-in locally:

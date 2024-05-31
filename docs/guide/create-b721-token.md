@@ -6,7 +6,7 @@ slug: /guide/create-b721-token
 --- 
 
 
-# Create B721 Token on OrdScript
+# Create B721 Token on BRC20pm
 
 **BIP-721**
 The standard requires the following functionality to be implemented to ensure the operation and management of the token:

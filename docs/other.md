@@ -46,7 +46,7 @@ Although this does seem ridiculous, we can't think of a better way to solve this
 ##### `send || deploy`
 
 ```javascript
-//You can use the BTC related js library to build a Taproot transaction that complies with the OrdScript protocol rules and broadcast it to the chain.
+//You can use the BTC related js library to build a Taproot transaction that complies with the BRC20pm protocol rules and broadcast it to the chain.
 
 //JavaScript Source Code
 let code = '...'
@@ -126,7 +126,7 @@ let data = {
 	source: str2Hex(code)
 }
 
-let response = await post(OrdScriptNode_Url + "/indexer", data);
+let response = await post(BRC20pmNode_Url + "/indexer", data);
 
 console.log(response);
 
@@ -146,13 +146,13 @@ function codeMinify(code) {
 
 ```bash
 script source code and operation instructions are stored on the BTC chain
-You can use any method to perform deduction from the block number starting from OrdScript to the latest block number to obtain the latest results.
+You can use any method to perform deduction from the block number starting from BRC20pm to the latest block number to obtain the latest results.
 ```
 
 
 
-### Who runs OrdScript’s nodes?
+### Who runs BRC20pm’s nodes?
 
 ```bash
-Anyone can run OrdScript node
+Anyone can run BRC20pm node
 ```

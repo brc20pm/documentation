@@ -10,11 +10,12 @@ slug: /installation/indexer
 ## Download Link
 
 ```bash
-https://github.com/ordscript/release/tree/main/indexer
+https://github.com/brc20pm/release/tree/main/indexer
 ```
 
 ## Configuration Items
-`ordscript.json`
+`brc20pm.json`
+
 ```json
 {
    "network":2,
@@ -41,7 +42,7 @@ rpc and CertPath can be empty when running the local test environment
 
 ```bash
 #Run the following command in your Linux server
-$ nohup ./ordscript &
+$ nohup ./brc20pm &
 ```
 
 ## Port

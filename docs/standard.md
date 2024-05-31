@@ -46,4 +46,4 @@ We should ensure that these keys always have a higher priority than other keys. 
 
 ## Minimum OutValue
 
-The satoshi of the first output address should be greater than or equal to 2000
+The satoshis of the first output address should be greater than or equal to 2000

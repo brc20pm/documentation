@@ -15,7 +15,7 @@ const HeaderView: React.FC = () => {
   const { windowHeight } = useWindowSize();
   const [toTypeWords] = useState(
     shuffle([
-      'ORD SCRIPT',
+      'BRC20pm',
     ])
   );
 

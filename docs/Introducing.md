@@ -1,6 +1,6 @@
 ---
 id: introducing 
-title: Introducing OrdScript
+title: Introducing BRC20pm
 sidebar_label: 📖 Introducing 
 slug: /introducing
 ---
@@ -13,12 +13,12 @@ This is a BRC20 extension module that will bring programmability to Bitcoin. You
 ### Development background
 - In March 2023, the Bitcoin network underwent a landmark change with the release of the Ordinals protocol. Domo then proposed the BRC20 standard, which specifies a method for seamlessly running tokens and NFTs on the Bitcoin network.
 - In May 2023, with the rise of Unisat, MagicEden and other platforms, a flourishing Bitcoin ecosystem was rapidly formed. While these advancements advance Bitcoin’s token mechanics, they lack a key component—developer programming autonomy.
-- ORD Script was born from this vision. It is a revolutionary tool that unlocks endless possibilities for developers. Like Ethereum's Smart Script, OrdScript makes it possible to develop and execute decentralized applications in the BRC20 standard. However, what makes it unique is that it uses JavaScript, a language well-known among developers for its ubiquity and ease of use.
+- ORD Script was born from this vision. It is a revolutionary tool that unlocks endless possibilities for developers. Like Ethereum's Smart Script, BRC20pm makes it possible to develop and execute decentralized applications in the BRC20 standard. However, what makes it unique is that it uses JavaScript, a language well-known among developers for its ubiquity and ease of use.
 - ORD Script is designed to make anything you imagine possible. It brings the versatility of Ethereum smart scripts to the reliable, secure Bitcoin network, but with a twist – using JavaScript. This approach not only makes blockchain development easier, but also opens up new horizons for innovation that were previously limited to more complex programming languages.
 
 ### Conclusion
 
-**OrdScript** is an important extension of the BRC20 standard. It is not only an enhancement to the existing standard, but also a bridge that perfectly combines the stability of Bitcoin with the innovation of modern blockchain technology. Through OrdScript, developers can deploy complex smart scripts on the Bitcoin network, conduct cross-chain transactions, and even develop and manage decentralized applications while maintaining the core security and decentralization of the Bitcoin network.
+**BRC20pm** is an important extension of the BRC20 standard. It is not only an enhancement to the existing standard, but also a bridge that perfectly combines the stability of Bitcoin with the innovation of modern blockchain technology. Through BRC20pm, developers can deploy complex smart scripts on the Bitcoin network, conduct cross-chain transactions, and even develop and manage decentralized applications while maintaining the core security and decentralization of the Bitcoin network.
 
 ## What can it do?
 

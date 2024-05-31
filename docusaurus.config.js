@@ -21,20 +21,20 @@ const {
 	toast
 } = require('react-toastify');
 
-const githubOrgUrl = 'https://github.com/OrdScript';
-const domain = 'https://docs.ordscript.com';
+const githubOrgUrl = 'https://github.com/brc20pm';
+const domain = 'https://docs.brc20pm.com';
 
 const customFields = {
 	meta: {
 		title: 'Bitcoin',
 	},
-	copyright: `Made with  💜 by <a target="_blank" rel="noopener noreferrer" href="https://github.com/OrdScript">OrdScript</a> Inc`,
+	copyright: `Made with  💜 by <a target="_blank" rel="noopener noreferrer" href="https://github.com/BRC20pm">BRC20pm</a> Inc`,
 	domain,
 	githubOrgUrl,
 	githubUrl: `${githubOrgUrl}`,
 	githubDocsUrl: `${githubOrgUrl}/documentation`,
 	discordUrl: `https://discord.gg`,
-	twitterUrl: 'https://twitter.com/ordscript',
+	twitterUrl: 'https://twitter.com/brc20pm',
 	version: '0.0.1',
 	liveCodeScope: {
 		Agile,
@@ -55,15 +55,15 @@ const customFields = {
 };
 
 const config = {
-	title: 'ORD Script',
+	title: 'BRC20pm',
 	tagline: 'This is a BRC20 extension module that will bring programmability to Bitcoin. You can think of it as an execution layer in a modular blockchain.',
 	url: customFields.domain,
 	baseUrlIssueBanner: false,
 	baseUrl: '/',
 	onBrokenLinks: 'throw', 
 	favicon: 'img/favicon.ico',
-	organizationName: 'OrdScript',
-	projectName: 'OrdScript',
+	organizationName: 'BRC20pm',
+	projectName: 'BRC20pm',
 	themes: ['@docusaurus/theme-live-codeblock'],
 	scripts: [{
 		src: 'https://snack.expo.io/embed.js',
@@ -99,7 +99,7 @@ const config = {
 			title: '',
 			hideOnScroll: true,
 			logo: {
-				alt: 'ordScript Logo',
+				alt: 'BRC20pm Logo',
 				src: 'img/logo.svg',
 			},
 			items: [
