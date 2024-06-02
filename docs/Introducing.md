@@ -13,8 +13,8 @@ This is a BRC20 extension module that will bring programmability to Bitcoin. You
 ### Development background
 - In March 2023, the Bitcoin network underwent a landmark change with the release of the Ordinals protocol. Domo then proposed the BRC20 standard, which specifies a method for seamlessly running tokens and NFTs on the Bitcoin network.
 - In May 2023, with the rise of Unisat, MagicEden and other platforms, a flourishing Bitcoin ecosystem was rapidly formed. While these advancements advance Bitcoin’s token mechanics, they lack a key component—developer programming autonomy.
-- ORD Script was born from this vision. It is a revolutionary tool that unlocks endless possibilities for developers. Like Ethereum's Smart Script, BRC20pm makes it possible to develop and execute decentralized applications in the BRC20 standard. However, what makes it unique is that it uses JavaScript, a language well-known among developers for its ubiquity and ease of use.
-- ORD Script is designed to make anything you imagine possible. It brings the versatility of Ethereum smart scripts to the reliable, secure Bitcoin network, but with a twist – using JavaScript. This approach not only makes blockchain development easier, but also opens up new horizons for innovation that were previously limited to more complex programming languages.
+- BRC20pm was born from this vision. It is a revolutionary tool that unlocks endless possibilities for developers. Like Ethereum's Smart Script, BRC20pm makes it possible to develop and execute decentralized applications in the BRC20 standard. However, what makes it unique is that it uses JavaScript, a language well-known among developers for its ubiquity and ease of use.
+- BRC20pm is designed to make anything you imagine possible. It brings the versatility of Ethereum smart scripts to the reliable, secure Bitcoin network, but with a twist – using JavaScript. This approach not only makes blockchain development easier, but also opens up new horizons for innovation that were previously limited to more complex programming languages.
 
 ### Conclusion
 
