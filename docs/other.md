@@ -65,7 +65,7 @@ const marker = ec.encode('ord')
 const mimetype = ec.encode('text/plain;charset=utf-8')
 
 const brc20JSON = {
-	"p": "brc-20",
+	"p": "brc20-pm",
 	"op": "send || deploy",
 	"src": textToHex(code || JSON.stringify(calldata))
 }

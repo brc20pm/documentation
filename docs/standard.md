@@ -1,24 +1,24 @@
 ---
 id: standard 
-title: New Standards
+title: Standards
 sidebar_label: 🕵️ Standard 
 slug: /standard
 ---
 
 In this standard, we will no longer use the address in the output script as the owner, but the fee payer of the relay transaction as the owner
 
-|  Key   | Required?  | Description |
+|  Key   | Required  | Description |
 |  ----  | ----  	  | ---- |
-| 	src  | option   |	Programmable module (high priority): When op is deploy and src exists, it is considered a deployment script. When op is send and src exists, it is considered a call to the execution method,	|
-
-Please check the complete standards [BRC20](https://domo-2.gitbook.io/brc-20-experiment)
+| 	p  | Yes   |	Protocol: Helps other systems identify and process brc20-pm events
+| 	op  | Yes   |	Operation: Type of event (Deploy, Send, Call)
+| 	src  | Yes   |	Operation instruction byte
 
 
 ## Deploy 
 
 ```javascript
 { 
-  "p": "brc-20",
+  "p": "brc20-pm",
   "op": "deploy",
   "src": "source code hex"
 }
@@ -35,13 +35,11 @@ calldata = {
 }
 
 { 
-  "p": "brc-20",
+  "p": "brc20-pm",
   "op": "send",
   "src": strToHex(JSON.stringify(calldata))
 }
 ```
-
-We should ensure that these keys always have a higher priority than other keys. When ```src``` exists, it will be recognized as a programmable module instruction and other keys will be excluded
 
 
 ## Minimum OutValue

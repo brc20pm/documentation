@@ -2,7 +2,7 @@ module.exports = {
 	docs: [
 		'introducing',
 		'standard',
-		// 'modular',
+		'modules-withdrawals-and-decentralization-of-brc-20',
 		// 'monetization',
 		// 'governance',
 		'principle',
